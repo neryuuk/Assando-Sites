@@ -1,0 +1,6 @@
+2011-08-14 18:07:57 Debug: Notice (8): Undefined variable: param in [C:\WAMPS\apache\htdocs\cakephp\app\views\elements\footer.ctp, line 1]
+2011-08-17 04:55:02 Debug: Notice (8): Use of undefined constant PagesController - assumed 'PagesController' in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
+2011-08-17 04:55:25 Debug: Notice (8): Undefined property: View::$PagesController in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
+2011-08-17 04:56:31 Debug: Notice (8): Undefined property: View::$pageTitle in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
+2011-08-17 04:57:06 Debug: Notice (8): Undefined property: View::$PagesController in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
+2011-08-17 04:57:40 Debug: Notice (8): Undefined property: View::$pageTitle in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
