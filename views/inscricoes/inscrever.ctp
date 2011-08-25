@@ -1,23 +1,22 @@
 <h2>Inscreva-se no evento</h2>
-<?php // echo $this->Form->inputs(array('legend' => 'My Legend')) . PHP_EOL; ?>
-<!-- DICA: Colspan total deve ser sempre 20 -->
-<form id="form_inscricao">
-<table>
-	<tr>
-		<th><label class="form_header" for="Nome">Nome</label></th>
-		<td><input name="Nome" type="text" class="form_field" value="" /></td>
-	</tr>
-	<tr>
-		<th><label class="form_header" for="Email">E-mail</label></th>
-		<td><input name="Email" type="text" class="form_field" value="" /></td>
-	</tr>
-	<tr>
-		<th><label class="form_header" for="Telefone">Telefone</label></th>
-		<td><input name="Telefone" type="text" class="form_field"  value="" /></td>
-	</tr>
-	<tr>
-		<th><label class="form_header" for="Endereco">Endere&ccedil;o</label></th>
-		<td><input name="Endereco" type="text" class="form_field"  value="" /></td>
-	</tr>
-</table>
+<form id="form_inscricao" method="post">
+	<div class="form_fields">
+		<label for="Nome">Nome :</label>
+		<input name="Nome" type="text" class="form_field" value="" maxlength="50" />
+	</div>
+	<div class="form_fields">
+		<label for="Email">E-mail :</label>
+		<input name="Email" type="text" class="form_field" value="" maxlength="100" />
+	</div>
+	<div class="form_fields">
+		<label for="Telefone">Telefone :</label>
+		<input name="Telefone" type="text" class="form_field"  value="" maxlength="10" onkeydown="numberOnly()" />
+	</div>
+	<div class="form_fields">
+		<label for="Endereco">Endere&ccedil;o :</label>
+		<input name="Endereco" type="text" class="form_field"  value="" maxlength="100" />
+	</div>
+	<div id="form_submit">
+		<input name="Inscrever" type="submit" value="inscreva-me" id="form_submit" />
+	</div>
 </form>

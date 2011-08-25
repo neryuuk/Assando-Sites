@@ -1,11 +1,13 @@
-<?php $this->pageTitle = 'Dia da Comunidade Alemã'; ?>
 <?php echo $this->Html->docType('xhtml-trans') . PHP_EOL; ?>
 <html>
 <head>
-<?php echo $this->Html->charset(); ?>
-<?php echo ltrim($this->Html->css('main')); ?>
-<?php echo $this->Html->meta('favicon.ico', './favicon.ico', array('type' => 'icon')) . PHP_EOL;?>
-<title><?php echo $title_for_layout . PHP_EOL; ?></title>
+<?php
+	echo $this->Html->charset() . PHP_EOL;
+	echo ltrim($this->Html->css('main')) . PHP_EOL;
+	echo ltrim($this->Html->script('numberOnly')) . PHP_EOL;
+	echo $this->Html->meta('favicon.ico', './favicon.ico', array('type' => 'icon')) . PHP_EOL;
+?>
+<title><?php echo $title_for_layout; ?></title>
 </head>
 <body>
 <div class="wraper">

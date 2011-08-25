@@ -13,16 +13,46 @@ h6 { font-size: 16px; }
 a { color: #099; text-decoration: none; }
 i { font-style: italic; }
 .small { font-size: 12px; }
-#form_inscricao input[type="text"] {
-	margin-right: 40px;
-	margin-top: 15px;
-	padding: 4px;
-	width: 300px;
-}
-#form_header {
+#form_inscricao label {
+	font-size: 15px;
+	border-style: none;
+	border-width: 1px;
+	border-color: #006666;
+	margin: 6px 0px 0px 0px;
+	padding: 6px 0px 6px 0px;
+	width: 74px;
+	float: left;
 	text-align: right;
-	margin-top: 15px;
-	padding: 4px;
+	display: block;
+}
+#form_inscricao input[type="text"] {
+	font-size: 15px;
+	background-color: transparent;
+	border-style: none solid solid none;
+	border-width: 1px;
+	border-color: #006666;
+	margin: 6px 10px 6px -75px;
+	padding: 6px 6px 6px 78px;
+	width: 340px;
+}
+#form_inscricao input[type="submit"] {
+    background: url('../img/inscrever.png') no-repeat;
+    border-width: 0;
+    color: #FFF;
+    font-weight: bold;
+    height: 43px;
+    padding: 0 0 5px 5px;
+    text-align: center;
+    width: 116px;
+}
+#form_submit {
+	margin: 36px 0 0 450px;
+}
+#form_inscricao div {
+	margin: 10px 0 6px 10px;
+}
+.form_fields {
+	padding-left: 80px;	
 }
 #top_left {
 	margin: 4px 0 -17px 0;
@@ -32,7 +62,7 @@ i { font-style: italic; }
 	background-repeat: no-repeat;
 }
 .middle_content {
-	padding: 0 18px 16px 18px;
+	padding: 0 18px 16px 20px;
 	width: 604px;
 	background-image: url('../img/middle_left.png');
 	background-repeat: repeat-y;
