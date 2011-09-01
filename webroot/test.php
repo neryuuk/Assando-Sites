@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Web Access Frontend for TestSuite
  *
