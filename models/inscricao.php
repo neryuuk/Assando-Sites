@@ -17,7 +17,8 @@ class Inscricao extends AppModel {
 				'allowEmpty' => false,
 				'required' => true,
 				'rule' => 'notEmpty',
-				'message' => 'O E-mail é obrigatório'
+				'message' => 'O E-mail é obrigatório',
+				'last' => true
 			),
 			array(
 				'rule' => 'email',
@@ -33,7 +34,8 @@ class Inscricao extends AppModel {
 				'allowEmpty' => false,
 				'required' => true,
 				'rule' => 'notEmpty',
-				'message' => 'O Telefone é obrigatório'
+				'message' => 'O Telefone é obrigatório',
+				'last' => true
 			),
 			array(
 				'rule' => 'numeric',

@@ -1,4 +1,4 @@
-;<?php die() ?>
+﻿;<?php die() ?>
 ; SVN FILE: $Id$
 ;/**
 ; * ACL configuration

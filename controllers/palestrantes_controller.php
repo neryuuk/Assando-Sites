@@ -4,5 +4,7 @@ class PalestrantesController extends AppController {
 
 	public function index() {
 	}
+	public function adicionar() {
+	}
 }
 ?>
