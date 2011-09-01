@@ -1,0 +1,3 @@
+2011-08-31 21:19:01 Warning: Warning (2): session_destroy() [<a href='http://php.net/function.session-destroy'>function.session-destroy</a>]: Session object destruction failed in [C:\WAMPS\apache\htdocs\cakephp\cake\libs\cake_session.php, line 458]
+2011-08-31 21:53:04 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '' for key 'email'</span> in [C:\WAMPS\apache\htdocs\cakephp\cake\libs\model\datasources\dbo_source.php, line 684]
+2011-08-31 22:00:13 Warning: Warning (512): <span style="color:Red;text-align:left"><b>SQL Error:</b> 1062: Duplicate entry '' for key 'email'</span> in [C:\WAMPS\apache\htdocs\cakephp\cake\libs\model\datasources\dbo_source.php, line 684]
