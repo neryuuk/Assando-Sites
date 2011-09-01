@@ -1,4 +1,4 @@
-<?php
+Ôªø<?php
 class Inscricao extends AppModel {
 	public $name = 'Inscricao';
 	public $useTable = 'inscricoes';
@@ -10,22 +10,22 @@ class Inscricao extends AppModel {
 			'allowEmpty' => false,
 			'required' => true,
 			'rule' => 'notEmpty',
-			'message' => 'O Nome È obrigatÛrio'
+			'message' => 'O Nome √© obrigat√≥rio'
 		),
 		'email' => array(
 			array(
 				'allowEmpty' => false,
 				'required' => true,
 				'rule' => 'notEmpty',
-				'message' => 'O E-mail È obrigatÛrio'
+				'message' => 'O E-mail √© obrigat√≥rio'
 			),
 			array(
 				'rule' => 'email',
-				'message' => 'E-mail inv·lido'
+				'message' => 'E-mail inv√°lido'
 			),
 			array(
 				'rule' => 'isUnique',
-				'message' => 'E-mail j· cadastrado'
+				'message' => 'E-mail j√° cadastrado'
 			)
 		),
 		'telefone' => array(
@@ -33,18 +33,18 @@ class Inscricao extends AppModel {
 				'allowEmpty' => false,
 				'required' => true,
 				'rule' => 'notEmpty',
-				'message' => 'O Telefone È obrigatÛrio'
+				'message' => 'O Telefone √© obrigat√≥rio'
 			),
 			array(
 				'rule' => 'numeric',
-				'message' => 'Telefone inv·lido'
+				'message' => 'Telefone inv√°lido'
 			)
 		),
 		'endereco' => array(
 			'allowEmpty' => false,
 			'required' => true,
 			'rule' => 'notEmpty',
-			'message' => 'O EndereÁo È obrigatÛrio'
+			'message' => 'O Endere√ßo √© obrigat√≥rio'
 		)
 	);
 }
