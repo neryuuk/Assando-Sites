@@ -6,3 +6,5 @@
 2011-08-17 04:57:40 Debug: Notice (8): Undefined property: View::$pageTitle in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
 2011-08-24 11:04:40 Notice: Notice (8): Undefined property: HtmlHelper::$Form in [/srv/www/cake.neryuuk.com/public_html/app/views/inscricoes/inscrever.ctp, line 2]
 2011-08-24 11:05:17 Notice: Notice (8): Undefined index:  in [/srv/www/cake.neryuuk.com/public_html/cake/libs/view/helpers/form.php, line 623]
+2011-08-28 19:56:29 Debug: Notice (8): Use of undefined constant PHPEOL - assumed 'PHPEOL' in [C:\WAMPS\apache\htdocs\cakephp\app\views\inscricoes\inscrever.ctp, line 45]
+2011-08-28 19:56:36 Debug: Notice (8): Use of undefined constant PHPEOL - assumed 'PHPEOL' in [C:\WAMPS\apache\htdocs\cakephp\app\views\inscricoes\inscrever.ctp, line 45]

@@ -1,4 +1,4 @@
-<h2>Onde será?</h2>
+﻿<h2>Onde será?</h2>
 <p>O <i>Dia da Comunidade Alem&atilde;</i> ocorrerá no "Plenário Presidente Juscelino Kubischek de Oliveira",
 localizado na Assembléia Legislativa do Estado de S&atilde;o Paulo.</p>
 <p><i>Rua Abílio Soares - Paraíso<br />

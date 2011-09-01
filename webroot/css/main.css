@@ -1,4 +1,4 @@
-* { color: #666; font-size: 14px; font-family: Helvetica, Verdana, Tahoma, Arial, sans-serif; }
+﻿* { color: #666; font-size: 14px; font-family: Helvetica, Verdana, Tahoma, Arial, sans-serif; }
 body { height: 100%; margin: auto; text-align: left; width: 980px; background-color: #066; }
 img { border-width: 0; }
 p, ul { margin-top: 0; }
@@ -13,7 +13,10 @@ h6 { font-size: 16px; }
 a { color: #099; text-decoration: none; }
 i { font-style: italic; }
 .small { font-size: 12px; }
-#form_inscricao label {
+#InscricaoInscreverForm div {
+	margin: 10px 0 6px 10px;
+}
+#InscricaoInscreverForm label {
 	font-size: 15px;
 	border-style: none;
 	border-width: 1px;
@@ -25,7 +28,7 @@ i { font-style: italic; }
 	text-align: right;
 	display: block;
 }
-#form_inscricao input[type="text"] {
+#InscricaoInscreverForm input[type="text"] {
 	font-size: 15px;
 	background-color: transparent;
 	border-style: none solid solid none;
@@ -35,7 +38,7 @@ i { font-style: italic; }
 	padding: 6px 6px 6px 78px;
 	width: 340px;
 }
-#form_inscricao input[type="submit"] {
+#InscricaoInscreverForm input[type="submit"] {
     background: url('../img/inscrever.png') no-repeat;
     border-width: 0;
     color: #FFF;
@@ -45,11 +48,8 @@ i { font-style: italic; }
     text-align: center;
     width: 116px;
 }
-#form_submit {
+.InscricaoInscreverFormSubmit {
 	margin: 36px 0 0 450px;
-}
-#form_inscricao div {
-	margin: 10px 0 6px 10px;
 }
 .form_fields {
 	padding-left: 80px;	

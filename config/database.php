@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * This is core configuration file.
  *
@@ -72,24 +72,14 @@
  *
  */
 class DATABASE_CONFIG {
-
 	var $default = array(
 		'driver' => 'mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => 'root',
-		'password' => '7g4qhblp',
+		'login' => 'database_cake',
+		'password' => 'database_cake',
 		'database' => 'database_cake',
-		'prefix' => '',
-	);
-
-	var $test = array(
-		'driver' => 'mysql',
-		'persistent' => false,
-		'host' => 'localhost',
-		'login' => 'user',
-		'password' => 'password',
-		'database' => 'test_database_name',
+		'encoding' => 'utf8',
 		'prefix' => '',
 	);
 }

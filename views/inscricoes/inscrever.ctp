@@ -1,22 +1,58 @@
-<h2>Inscreva-se no evento</h2>
-<form id="form_inscricao" method="post">
-	<div class="form_fields">
-		<label for="Nome">Nome :</label>
-		<input name="Nome" type="text" class="form_field" value="" maxlength="50" />
-	</div>
-	<div class="form_fields">
-		<label for="Email">E-mail :</label>
-		<input name="Email" type="text" class="form_field" value="" maxlength="100" />
-	</div>
-	<div class="form_fields">
-		<label for="Telefone">Telefone :</label>
-		<input name="Telefone" type="text" class="form_field"  value="" maxlength="10" onkeydown="numberOnly()" />
-	</div>
-	<div class="form_fields">
-		<label for="Endereco">Endere&ccedil;o :</label>
-		<input name="Endereco" type="text" class="form_field"  value="" maxlength="100" />
-	</div>
-	<div id="form_submit">
-		<input name="Inscrever" type="submit" value="inscreva-me" id="form_submit" />
-	</div>
-</form>
+﻿<h2>Inscreva-se no evento</h2>
+<?php
+	function newLine($value) {
+		$replacee = "><";
+		$replaceBy = ">\n<";
+		return str_replace($replacee,$replaceBy,$value);
+	}
+
+	$formFields = array(
+		$this->Form->create('Inscricao',array(
+			'url' => array(
+				'controller' => 'inscricoes',
+				'action' => 'inscrever'))),
+		$this->Form->input('nome', array(
+			'error' => array(
+				'notEmpty' => __('O Nome é obrigatório', true)),
+			'label' => 'Nome :',
+			'class' => 'form_field',
+			'tabindex' => '110',
+			'div' => array(
+				'class' => 'form_fields'),
+			'maxlength' => '50')),
+//		$this->Form->error('nome'),
+		$this->Form->input('email', array(
+			'label' => 'E-mail :',
+			'class' => 'form_field',
+			'tabindex' => '120',
+			'div' => array(
+				'class' => 'form_fields'),
+			'maxlength' => '100')),
+//		$this->Form->error('email'),
+		$this->Form->input('telefone', array(
+			'label' => 'Telefone :',
+			'class' => 'form_field',
+			'tabindex' => '130',
+			'div' => array(
+				'class' => 'form_fields'),
+			'maxlength' => '10')),
+//		$this->Form->error('telefone'),
+		$this->Form->input('endereco', array(
+			'label' => 'Endereço :',
+			'class' => 'form_field',
+			'tabindex' => '140',
+			'div' => array(
+				'class' => 'form_fields'),
+			'maxlength' => '100')),
+//		$this->Form->error('endereco'),
+		$this->Form->submit('inscreva-me', array(
+			'class' => 'InscricaoInscreverFormSubmit',
+			'tabindex' => '150',
+			'div' => array(
+				'class' => 'InscricaoInscreverFormSubmit'))));
+		foreach($formFields as $value) {
+			echo newLine($value) . PHP_EOL;
+//			echo $value . PHP_EOL;
+		}
+		echo $this->Form->end();
+?>

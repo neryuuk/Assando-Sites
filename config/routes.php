@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Routes configuration
  *
@@ -38,4 +38,5 @@
 	Router::connect('/home', array('controller' => 'pages', 'action' => 'display', 'sobre-o-evento'));
 	Router::connect('/quem-somos', array('controller' => 'pages', 'action' => 'display', 'quem-somos'));
 	Router::connect('/como-chegar', array('controller' => 'pages', 'action' => 'display', 'como-chegar'));
+	Router::connect('/obrigado', array('controller' => 'pages', 'action' => 'display', 'obrigado'));	
 	Router::connect('/inscreva-se', array('controller' => 'inscricoes', 'action' => 'inscrever', 'inscrever'));	
