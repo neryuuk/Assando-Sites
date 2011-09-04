@@ -34,9 +34,19 @@
 /**
  * Minhas rotas.
  */
-	Router::connect('/', array('controller' => 'pages', 'action' => 'display', 'sobre-o-evento'));
-	Router::connect('/home', array('controller' => 'pages', 'action' => 'display', 'sobre-o-evento'));
-	Router::connect('/quem-somos', array('controller' => 'pages', 'action' => 'display', 'quem-somos'));
-	Router::connect('/como-chegar', array('controller' => 'pages', 'action' => 'display', 'como-chegar'));
-	Router::connect('/obrigado', array('controller' => 'pages', 'action' => 'display', 'obrigado'));	
-	Router::connect('/inscreva-se', array('controller' => 'inscricoes', 'action' => 'inscrever', 'inscrever'));	
+	Router::connect('/',
+		array('controller' => 'pages', 'action' => 'display', 'sobre-o-evento'));
+	Router::connect('/quem-somos',
+		array('controller' => 'pages', 'action' => 'display', 'quem-somos'));
+	Router::connect('/como-chegar',
+		array('controller' => 'pages', 'action' => 'display', 'como-chegar'));
+	Router::connect('/obrigado',
+		array('controller' => 'pages', 'action' => 'display', 'obrigado'));
+	Router::connect('/inscreva-se',
+		array('controller' => 'inscricoes', 'action' => 'inscrever', 'inscrever'));
+	Router::connect('/palestra/:nome/:id',
+		array('controller' => 'palestras', 'action' => 'palestra', 'palestra'),
+		array('pass' => array('id', 'nome'), 'nome' => '[a-z0-9-]+', 'id' => '[0-9]+'));
+	Router::connect('/palestrante/:nome/:id',
+		array('controller' => 'palestrantes', 'action' => 'palestrante', 'palestrante'),
+		array('pass' => array('id', 'nome'), 'nome' => '[a-z0-9-]+', 'id' => '[0-9]+'));

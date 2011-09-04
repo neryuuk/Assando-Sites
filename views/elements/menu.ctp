@@ -1,4 +1,4 @@
-﻿<?php //<p style="clear: both; height: 0; margin: 0;">&nbsp;</p> ?>
+﻿<div style="clear: both; height: 0; margin: 0; padding: 0;">&nbsp;</div>
 <div id="menu">
 <ul class="dropdown">
 <?php
@@ -19,4 +19,4 @@
 	<li><?php echo $this->Html->link('palestrantes', '/palestrantes'); ?></li>
 </ul>
 </div>
-<p style="clear: both; height: 0; margin: 0;">&nbsp;</p>
+<div style="clear: both; height: 0; margin: 0; padding: 0;">&nbsp;</div>
