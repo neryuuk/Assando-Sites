@@ -3,6 +3,9 @@ class PalestrantesController extends AppController {
 	public $name = 'Palestrantes';
 
 	public function index() {
+		$this->set('active', 'palestrante');
+		$this->set('title_for_layout', 'Palestrantes | Dia da comunidade alemã');
+
 		$palestrantes = $this->Palestrante->find('all',array(
 			'order' => 'Palestrante.nome ASC')
 		);
@@ -14,6 +17,7 @@ class PalestrantesController extends AppController {
 		}
 	}
 	public function palestrante($id, $nome) {
+		$this->set('active', 'palestrante');
 		$this->Palestrante->order = 'Palestrante.id ASC';
 		if ($this->Palestrante->read()) {
 			$palestrante = $this->Palestrante->read();
@@ -27,6 +31,8 @@ class PalestrantesController extends AppController {
 		} else {
 			$this->set('existe', false);
 		}
+		$title = 'Palestrante: ' . $palestrante['Palestrante']['nome'] . ' | Dia da comunidade alemã';
+		$this->set('title_for_layout', $title);
 	}
 }
 ?>

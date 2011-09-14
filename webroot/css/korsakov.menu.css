@@ -1,0 +1,21 @@
+﻿/* MENU BEGIN */
+#menu * { font-weight: bold; padding: 0; }
+#menu { margin-top: -6px; margin-left: 14px; width: 980px; z-index: 10000; } 
+#menu ul { list-style: none; }
+/* LEVEL ONE */
+ul.dropdown { position: relative; z-index: 10000; }
+ul.dropdown li {
+    float: left;
+    height: 24px;
+    text-align: center;
+    width: 130px;
+}
+ul.dropdown li a {
+    border-right: 0 solid #FFF;
+    color: #FFF;
+    display: block;
+	margin-top: 4px;
+}
+ul.dropdown li.active,
+ul.dropdown li.hover,
+ul.dropdown li:hover { background: #399; color: #FFF; position: relative; }

@@ -16,5 +16,6 @@ ul.dropdown li a {
     display: block;
 	margin-top: 4px;
 }
+ul.dropdown li.active,
 ul.dropdown li.hover,
 ul.dropdown li:hover { background: #399; color: #FFF; position: relative; }

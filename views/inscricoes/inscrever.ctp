@@ -1,4 +1,4 @@
-﻿<h2>Inscreva-se no evento</h2>
+﻿<h2>Inscreva-se</h2>
 <?php
 function newLine($value) {
 	$replacee = "><";

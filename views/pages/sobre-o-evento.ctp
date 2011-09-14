@@ -1,4 +1,5 @@
-﻿<h2>Dia da Comunidade Alem&atilde;</h2>
-<p>Se prepare, pois está chegando mais um <i>Dia da Comunidade Alem&atilde;</i> traz, todos os anos, a cultura, história e cozinha alem&atilde; ao país,
-para difundir e expandir o conhecimento sobre esse país e povo t&atilde;o maravilhosos.</p>
-<p>N&atilde;o saia daí pois, em breve daremos mais informações sobre o evento.</p>
+﻿<?php $this->set('active', 'sobre');
+$this->set('title_for_layout', 'Sobre o evento | Dia da comunidade alemã'); ?>
+<h2>Dia da Comunidade Alem&atilde;</h2>
+<p>Bacon ipsum dolor sit amet tongue sirloin nostrud nisi reprehenderit. Pancetta meatball est, rump ea frankfurter velit cupidatat consequat et. Pork loin non qui biltong, sausage pastrami aliquip. Kielbasa short loin anim in dolor, drumstick in bresaola nostrud ad sint meatball. Kielbasa pancetta exercitation esse, beef ex fugiat laboris swine andouille sunt cupidatat reprehenderit leberkäse. Ham hock quis venison, spare ribs aliquip meatloaf non pariatur beef ullamco kielbasa t-bone adipisicing. Meatloaf eiusmod anim, esse sint shank meatball est tempor pariatur non chicken t-bone bresaola.</p>
+<p>Pork belly id ham hock drumstick sed elit, boudin short loin. Kielbasa ut short loin, ut et id corned beef jerky short ribs shankle fugiat laborum tongue mollit. Frankfurter ground round shank bresaola deserunt dolor. Short loin turducken shank, spare ribs mollit ea cupidatat elit cow pork chop andouille sunt. Cow veniam dolor, commodo laborum in pork chop incididunt elit hamburger pastrami. Ut enim swine sint eiusmod meatball. Fugiat short ribs sunt ea enim, ad excepteur consectetur tenderloin aliqua ham hock leberkäse elit jowl.</p>

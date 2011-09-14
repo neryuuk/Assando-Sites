@@ -175,3 +175,6 @@
 2011-09-04 15:06:32 Debug: Notice (8): Undefined variable: value in [C:\WAMPS\apache\htdocs\cakephp\app\views\palestrantes\palestrante.ctp, line 14]
 2011-09-04 15:06:32 Debug: Notice (8): Undefined variable: value in [C:\WAMPS\apache\htdocs\cakephp\app\views\palestrantes\palestrante.ctp, line 17]
 2011-09-04 15:06:32 Debug: Notice (8): Undefined variable: value in [C:\WAMPS\apache\htdocs\cakephp\app\views\palestrantes\palestrante.ctp, line 19]
+2011-09-13 20:44:01 Debug: Notice (8): Undefined property: View::$pageTitle in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 2]
+2011-09-13 20:54:22 Debug: Notice (8): Undefined property: View::$title_for_layout in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
+2011-09-13 20:54:40 Debug: Notice (8): Undefined property: View::$title_for_layout in [C:\WAMPS\apache\htdocs\cakephp\app\views\pages\sobre-o-evento.ctp, line 1]
