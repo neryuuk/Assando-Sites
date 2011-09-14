@@ -40,7 +40,7 @@ i { font-style: italic; }
 	width: 320px;
 }
 #InscricaoInscreverForm input[type="submit"] {
-    background: url('../img/inscrever.png') no-repeat;
+    background: url('../../img/korsakov/inscrever.png') no-repeat;
     border-width: 0;
     color: #FFF;
     font-weight: bold;
@@ -53,7 +53,7 @@ i { font-style: italic; }
 	margin: 36px 0 0 450px;
 }
 div.error-message {
-    background: url('../img/error.png') no-repeat;
+    background: url('../../img/korsakov/error.png') no-repeat;
 	height: 18px;
 	margin: 0px 0px 0px 0px;
 	padding: 3px 0px 0px 26px;
@@ -79,7 +79,7 @@ div.error-message {
 	margin: 0px 0px -20px 0px;
 	height: 16px;
 	width: 640px;
-	background-image: url('../img/top_left.png');
+	background-image: url('../../img/korsakov/top_left.png');
 	background-repeat: no-repeat;
 	display: block;
 }
@@ -87,7 +87,7 @@ div.error-message {
 	padding: 0px 18px 2px 20px;
 	margin: 20px 0px 0px 0px;
 	width: 604px;
-	background-image: url('../img/middle_left.png');
+	background-image: url('../../img/korsakov/middle_left.png');
 	background-repeat: repeat-y;
 	display: block;
 }
@@ -95,7 +95,7 @@ div.error-message {
 	margin: -16px 0px 0px 0px;
 	padding: 0px 18px 4px 18px;
 	width: 604px;
-	background-image: url('../img/middle_left.png');
+	background-image: url('../../img/korsakov/middle_left.png');
 	background-repeat: repeat-y;
 	display: block;
 }
@@ -106,7 +106,7 @@ div.error-message {
 	margin: 0px 0px 0px 0px;
 	height: 20px;
 	width: 640px;
-	background-image: url('../img/bottom_left.png');
+	background-image: url('../../img/korsakov/bottom_left.png');
 	background-repeat: no-repeat;
 	display: block;
 }

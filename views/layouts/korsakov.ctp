@@ -24,10 +24,10 @@
 
 	echo $this->Html->docType('xhtml-trans') . PHP_EOL . '<html>' . PHP_EOL . '<head>' . PHP_EOL;
 	echo $this->Html->charset() . PHP_EOL;
-	echo ltrim($this->Html->css('korsakov.main')) . PHP_EOL;
-	echo ltrim($this->Html->css('korsakov.menu')) . PHP_EOL;
+	echo ltrim($this->Html->css('korsakov/main')) . PHP_EOL;
+	echo ltrim($this->Html->css('korsakov/menu')) . PHP_EOL;
 	if ($browser == 'firefox')
-		echo ltrim($this->Html->css('korsakov.firefox')) . PHP_EOL;
+		echo ltrim($this->Html->css('korsakov/firefox')) . PHP_EOL;
 	echo $this->Html->meta('favicon.ico', '/cakephp/favicon.ico', array('type' => 'icon')) . PHP_EOL;
 
 ?>
